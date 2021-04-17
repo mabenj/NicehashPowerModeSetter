@@ -2,7 +2,7 @@
 
   `npm install`
 
-- Enter your API key and rig settings into a config.json file
+- Enter your API key and rig settings into config.json file
 - Run with
 
   `node index.js <directory of config.json>`
