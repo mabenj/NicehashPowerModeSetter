@@ -1,0 +1,8 @@
+{
+	"apiHost": "https://api2.nicehash.com",
+	"apiKey": "<apiKey>",
+	"apiSecret": "<apiSecret>",
+	"orgId": "<orgId>",
+	"rigId": "<rigId>",
+	"deviceId": "<deviceId>"
+}

@@ -1,0 +1,29 @@
+{
+	"name": "nicehash-powermode-script",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"bin": "index.js",
+	"pkg": {
+		"assets": [
+			"node_modules/**/*",
+			"src/**/*"
+		],
+		"targets": [
+			"node12-macos-x64",
+			"node10-win-x64"
+		]
+	},
+	"scripts": {
+		"build": "pkg --output build/nhpowermode ."
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"crypto-js": "^4.0.0",
+		"qs": "^6.10.1",
+		"request": "^2.88.2",
+		"request-promise": "^4.2.6",
+		"request-promise-native": "^1.0.9"
+	}
+}
