@@ -1,5 +1,5 @@
 {
-	"name": "nicehash-powermode-script",
+	"name": "nicehash-powermode-setter",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
@@ -10,17 +10,17 @@
 			"src/**/*"
 		],
 		"targets": [
-			"node12-macos-x64",
-			"node10-win-x64"
+			"node14-win-x64"
 		]
 	},
 	"scripts": {
-		"build": "pkg --output build/nhpowermode ."
+		"build": "pkg --output build/nhpm ."
 	},
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
 		"crypto-js": "^4.0.0",
+		"minimist": "^1.2.5",
 		"qs": "^6.10.1",
 		"request": "^2.88.2",
 		"request-promise": "^4.2.6",
